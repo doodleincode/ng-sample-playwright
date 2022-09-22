@@ -8,9 +8,9 @@
 1. Start the dev server: `npm run start`
 2. View the app at http://localhost:30000
 
-# Tests
+# Test
 
-1. Go to the test direction: `cd test`
+1. Go to the test directory: `cd test`
 2. Install dependencies: `npm ci`
 3. Update Playwright browsers: `npx playwright install`
 3. Run tests: `npx playwright test`
