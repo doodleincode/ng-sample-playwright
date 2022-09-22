@@ -2,6 +2,7 @@
 
 angular.module('app', [
   'ngAnimate',
+  'ngAria',
   'ngRoute',
   'ngMaterial'
 ])
