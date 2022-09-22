@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Test App</title>
+    <link rel="stylesheet" href="lib/angular-material/angular-material.css" />
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-aria/angular-aria.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-material/angular-material.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+
+    <style>
+      .view-container {
+        margin-top: 50px;
+      }
+      .p-20 {
+        padding: 20px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .w-80 {
+        width: 320px;
+      }
+      .h-32 {
+        height: 128px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="view-container text-center">
+      <div ng-view class="view-frame"></div>
+    </div>
+
+  </body>
+</html>
